@@ -12,7 +12,7 @@ Hai tỉ lệ quan trọng mà mình sử dụng
 - $y_1 = U_{N-2}/U_N$
 - $y_2 = U_{N-1}/U_N$
 
-<img src="https://latex.codecogs.com/svg.image?y_1&space;=&space;U_{N-2}/U_N" title="https://latex.codecogs.com/svg.image?y_1 = U_{N-2}/U_N" />
+![equation](https://latex.codecogs.com/svg.image?y_1%20=%20U_%7BN-2%7D/U_N)
 
 Ví dụ:
 - $N = 6$
