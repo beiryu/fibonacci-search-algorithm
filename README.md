@@ -1,3 +1,4 @@
+
 # Fibonacci Search Chapter Bracketing
 
 Với giới hạn về số lần chúng ta truy vấn Fibonacci Search đảm bảo chúng ta thu nhỏ tối đa đoạn [a, b] chứa minimum.
@@ -10,6 +11,8 @@ Với giới hạn về số lần chúng ta truy vấn Fibonacci Search đảm 
 Hai tỉ lệ quan trọng mà mình sử dụng
 - $y_1 = U_{N-2}/U_N$
 - $y_2 = U_{N-1}/U_N$
+
+<img src="https://latex.codecogs.com/svg.image?y_1&space;=&space;U_{N-2}/U_N" title="https://latex.codecogs.com/svg.image?y_1 = U_{N-2}/U_N" />
 
 Ví dụ:
 - $N = 6$
