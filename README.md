@@ -12,16 +12,6 @@ Hai tỉ lệ quan trọng mà mình sử dụng
 - $y_1 = U_{N-2}/U_N$
 - $y_2 = U_{N-1}/U_N$
 
-```math
-SE = \frac{\sigma}{\sqrt{n}}
-```
-
-$`\sqrt{2}`$
-
-![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i\pi}=-1">
-
 Ví dụ:
 - $N = 6$
 - $F = 1, 1, 2, 3, 5, 8, 13$
