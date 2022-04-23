@@ -16,6 +16,8 @@ Hai tỉ lệ quan trọng mà mình sử dụng
 SE = \frac{\sigma}{\sqrt{n}}
 ```
 
+$`\sqrt{2}`$
+
 Ví dụ:
 - $N = 6$
 - $F = 1, 1, 2, 3, 5, 8, 13$
