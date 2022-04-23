@@ -81,7 +81,7 @@ $
 
 Được biết, tối thiểu nằm trong phạm vi [1.5, 4.5]. Giảm khoảng xuống 2/13 của ban đầu
 
-Do đó $F_n \geqslant 13$
+Do đó $F_n > 3 \Rightarrow n = 5$
 
 | i |  | $a_i$ | $c_i$ | $d_i$ | $b_i$ |
 | :---: | :---: | :---: | :---:| :---: | :---:
