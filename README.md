@@ -18,6 +18,8 @@ SE = \frac{\sigma}{\sqrt{n}}
 
 $`\sqrt{2}`$
 
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+
 Ví dụ:
 - $N = 6$
 - $F = 1, 1, 2, 3, 5, 8, 13$
