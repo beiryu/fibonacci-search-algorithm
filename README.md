@@ -66,3 +66,32 @@ $
 - Khi f(c) < f(d) thì bỏ khoảng ngoài cùng bên phải.
 - Ngược lại, thì bỏ khoảng ngoài cùng bên trái.  
 - Ngược lại giảm bộ xuống cho đến khi gặp điều kiện dừng.
+
+## Tính chất của thuật toán Fibonacci
+- Thuật toán Fibonacci là tối ưu theo nghĩa là nó đưa ra tỷ lệ khởi tạo lớn nhất đến khoảng cuối cùng cho một số lần cố định của hàm đánh giá.
+- Mối quan hệ giữa thuật toán Fibonacci và thuật toán Golden section có thể được quan sát bởi:
+$$
+\lim_{N \to \infty} \frac{F_{N-1}}{F_N} = \frac{\sqrt5 - 1}{2} \approx 0.618...
+$$
+
+## Example
+$
+f(x) = -\frac{1}{(x-1)^2}(logx - 2\frac{x-1}{x+1}).
+$
+
+Được biết, tối thiểu nằm trong phạm vi [1.5, 4.5]. Giảm khoảng xuống 2/13 của ban đầu
+
+Do đó $F_n \geqslant 13$
+
+| i |  | $a_i$ | $c_i$ | $d_i$ | $b_i$ |
+| :---: | :---: | :---: | :---:| :---: | :---:
+| 1 | x | 1.5 | 2.64 | 3.36 | 4.5 |
+|  | 100f(x) | -2.188 | -2.591 | -2.323 | -1.809 |
+| 2 | x | 1.5 | | | 3.36 |
+|  | 100f(x) | -2.188 | -2.670 | -2.591 | -2.323 |
+| 3 | x | 1.5 | | | 2.64 |
+|  | 100f(x) | -2.188 | -2.621 | -2.670 | -2.591 |
+| 4 | x | 1.92 | | | 2.64 |
+|  | 100f(x) | -2.621 | -2.670 | -2.660 | -2.591 |
+| 5 | x | 1.92 | | | 2.34 |
+|  | 100f(x) | -2.621 | -2.57 | -2.670 | -2.660 |
